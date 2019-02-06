@@ -5,9 +5,13 @@
   "main": "dist",
   "scripts": {
     "build": "tsc -p .",
-    "test": "ava test/*.js"
+    "test": "ava test/*.js",
+    "release": "release-it"
   },
-  "keywords": ["stream", "async"],
+  "keywords": [
+    "stream",
+    "async"
+  ],
   "author": "Alex0007",
   "dependencies": {
     "object-chunker": "^1.0.1",
@@ -21,6 +25,7 @@
     "husky": "^1.3.1",
     "lint-staged": "^8.1.3",
     "prettier": "^1.16.4",
+    "release-it": "^10.1.0",
     "typescript": "^3.3.1"
   },
   "husky": {
