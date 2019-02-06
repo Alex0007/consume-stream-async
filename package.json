@@ -1,13 +1,13 @@
 {
   "name": "consume-stream-async",
   "version": "1.0.0",
-  "description": "",
+  "description": "Apply async handler to stream easily",
   "main": "dist",
   "scripts": {
     "build": "tsc -p .",
     "test": "ava test/*.js"
   },
-  "keywords": [],
+  "keywords": ["stream", "async"],
   "author": "Alex0007",
   "dependencies": {
     "object-chunker": "^1.0.1",

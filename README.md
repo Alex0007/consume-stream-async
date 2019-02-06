@@ -1,6 +1,6 @@
 # consume-stream-async
 
-Apply async handler to stream data easily
+Apply async handler to stream easily
 
 ```js
 import { consumeStreamAsync } from "../";
