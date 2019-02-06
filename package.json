@@ -4,7 +4,6 @@
   "description": "Apply async handler to stream easily",
   "main": "dist",
   "scripts": {
-    "beforeStart": "npm build && npm test",
     "build": "tsc -p .",
     "test": "ava test/*.js",
     "release": "release-it"

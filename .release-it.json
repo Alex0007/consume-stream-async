@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "beforeStart": "npm run build && npm test"
+    }
+}
