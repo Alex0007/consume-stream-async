@@ -1,6 +1,6 @@
 {
   "name": "consume-stream-async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Apply async handler to stream easily",
   "main": "dist",
   "scripts": {
