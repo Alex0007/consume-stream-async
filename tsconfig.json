@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "strict": true,
+        "outDir": "dist",
+        "lib": [
+            "es2017"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}

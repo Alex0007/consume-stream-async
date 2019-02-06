@@ -1,0 +1,40 @@
+{
+  "name": "consume-stream-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "ava test/*.js"
+  },
+  "keywords": [],
+  "author": "Alex0007",
+  "dependencies": {
+    "object-chunker": "^1.0.1",
+    "through2": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.21",
+    "@types/through2": "^2.0.34",
+    "ava": "^1.2.1",
+    "byline": "^5.0.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.3",
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "tabWidth": 4
+  }
+}
