@@ -3,7 +3,7 @@
 Apply async handler to stream easily
 
 ```js
-import { consumeStreamAsync } from "../";
+import { consumeStreamAsync } from "consume-stream-async";
 
 const stream = fs
     .createReadStream("super-big-file.csv")
